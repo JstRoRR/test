@@ -73,7 +73,7 @@ def get_adduct_data(cur_mass_row, adducts_df, tolerance):
 def main():
 
     adducts_df = pd.read_csv("table2.csv")
-    print("Step 1: Table 1 is loaded!")
+    print("Step 1: Table 2 is loaded!")
     df = pd.read_csv("table1.txt", index_col=None, header=0)
     print("Step 2: Table 1  is loaded!")
     df.columns = ['ms_name', 'mz']
